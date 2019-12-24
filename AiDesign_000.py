@@ -82,7 +82,7 @@ window = sg.Window('AI Design : Your Instant Design Buddy', layout, default_elem
 while True:
     event, values = window.read()
     # event2, values2 = window2.read()
-    print('-- // -- // -- // --')
+    print('-- // -- / START / -- // --')
     print(event)
     for key,val in values.items():
         print (key, val)
